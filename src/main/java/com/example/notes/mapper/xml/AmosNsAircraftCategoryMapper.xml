@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.notes.mapper.AmosNsAircraftCategoryMapper">
+  <resultMap id="BaseResultMap" type="com.example.notes.entity.AmosNsAircraftCategory">
+    <id column="TYPE_ID" property="typeId"/>  
+    <result column="AIRCRAFT_CLASSIFY" property="aircraftClassify"/>  
+    <result column="AIRCRAFT_TYPE" property="aircraftType"/>  
+    <result column="AIRCRAFT_MANUFACTURER" property="aircraftManufacturer"/>  
+    <result column="AIRCRAFT_MANU_COUNTRY" property="aircraftManuCountry"/>  
+    <result column="TCVTC_HOLDER" property="tcvtcHolder"/>  
+    <result column="MODEL_APPROVAL" property="modelApproval"/>  
+    <result column="PRODUC_APPROVAL" property="producApproval"/>  
+    <result column="AIRCRAFT_SORT" property="aircraftSort"/>  
+    <result column="ENGINE_NUM" property="engineNum"/>  
+    <result column="IS_ENGINE_TV" property="isEngineTv"/>  
+    <result column="IS_PROPELL_TV" property="isPropellTv"/>  
+    <result column="LAND_TYPE" property="landType"/>  
+    <result column="SEAT_COUNT" property="seatCount"/>  
+    <result column="SH_PAY_AMOUNT" property="shPayAmount"/>  
+    <result column="TX_PAY_AMOUNT" property="txPayAmount"/>  
+    <result column="AIRCRAFT_TYPE_Y" property="aircraftTypeY"/>  
+    <result column="AIRCRAFT_MANUFACTURER_Y" property="aircraftManufacturerY"/>  
+    <result column="AIRCRAFT_SORT_Y" property="aircraftSortY"/>  
+    <result column="GT9_Y" property="gt9Y"/>  
+    <result column="IS_GROUND_Y" property="isGroundY"/>  
+    <result column="ENERGY_TYPE" property="energyType"/>  
+    <result column="IS_EQUIP_USE" property="isEquipUse"/>  
+    <result column="EQUIP_COUNT" property="equipCount"/>  
+    <result column="IS_PROPELL_USE" property="isPropellUse"/>  
+    <result column="PROPELL_COUNT" property="propellCount"/>  
+    <result column="ENGINE_SORT_Y" property="engineSortY"/>  
+    <result column="REMARKS" property="remarks"/> 
+  </resultMap>
+</mapper>

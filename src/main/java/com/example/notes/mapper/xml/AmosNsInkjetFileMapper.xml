@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.notes.mapper.AmosNsInkjetFileMapper">
+  <resultMap id="BaseResultMap" type="com.example.notes.entity.AmosNsInkjetFile">
+    <id column="ID" property="id"/>  
+    <result column="BUSINESSID" property="businessid"/>  
+    <result column="TABLENAME" property="tablename"/>  
+    <result column="FILE_STATUS" property="fileStatus"/>  
+    <result column="FILE_NAME" property="fileName"/>  
+    <result column="FILE_PATH" property="filePath"/>  
+    <result column="UPLOADDATE" property="uploaddate"/>  
+    <result column="UPLOADUSER" property="uploaduser"/>  
+    <result column="ISAUDIT" property="isaudit"/>  
+    <result column="FILE_TYPE_ID" property="fileTypeId"/>  
+    <result column="FILE_TYPE_NAME" property="fileTypeName"/>  
+    <result column="REJECTS_REMARKS" property="rejectsRemarks"/> 
+  </resultMap>
+</mapper>

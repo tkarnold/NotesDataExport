@@ -1,0 +1,61 @@
+##########################################################
+###################  开发环境的profile  ###################
+##########################################################
+spring:
+  profiles: dev
+  ###################  mysql配置  ###################
+#  datasource:
+#    url: jdbc:dm://192.168.1.242/HUSSAR_V8?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=UTC
+#    username: HUSSAR_V8
+#    password: HUSSAR_V8
+#    db-name: HUSSAR_V8
+#    filters: log4j,wall,mergeStat
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#  datasource:
+#    url: jdbc:oracle:thin:@oracle.jxdinfo.com:1521:orcl
+#    username: hussar_v8
+#    password: hussar_v8
+#    db-name: hussar_v8
+#    filters: log4j,wall,mergeStat
+#    driverClassName: oracle.jdbc.OracleDriver
+#    validation-query: select 1 from dual
+#  datasource-one:
+#    url: jdbc:mysql://127.0.0.1:3306/hussar_v8_clean?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+#    username: root
+#    password: root
+#    driverClassName: com.mysql.jdbc.Driver
+#    validation-query: select 1
+#  datasource-two:
+#    url: jdbc:mysql://127.0.0.1:3306/hussar_v8_clean?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+#    username: root
+#    password: root
+#    driverClassName: com.mysql.jdbc.Driver
+#    validation-query: select 1
+###################  DM7配置  ###################
+  datasource:
+    driverClassName: dm.jdbc.driver.DmDriver
+    #    url: jdbc:dm://qdjxd.gnway.cc/HUSSAR_V8
+    url: jdbc:dm://127.0.0.1:5236/HUSSAR
+    username: HUSSAR
+    password: 1234567890
+    db-name: HUSSAR
+    filters: log4j,mergeStat
+###################  Oscar配置  ###################
+#  datasource:
+#    url: jdbc:oscar://192.168.2.164:2004/osrdb2
+#    username: FOREIGPROJECT
+#    password: 1qaz@WSXed
+#    db-name: FOREIGPROJECT
+#    filters: log4j,mergeStat
+#    driverClassName: com.oscar.Driver
+#    validation-query: select 1 from dual
+###################  KingBase配置  ###################
+#  datasource:
+#      url: jdbc:kingbase://192.168.14.118/HUSSAR_V8
+#      username: system
+#      password: system
+#      db-name: HUSSAR_V8
+#      filters: log4j,mergeStat
+#      driverClassName: com.kingbase.Driver
+#      validation-query: SET SEARCH_PATH TO PUBLIC,wmsys,SYS_CATALOG;SELECT 1 FROM DUAL
+
